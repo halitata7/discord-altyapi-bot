@@ -80,7 +80,7 @@ client.on('ready', () => {
   
       var actvs = [
         `${prefix}yardım ${client.guilds.cache.size} sunucuyu`,
-        `${prefix}yardım ${client.users.cache.size} Kullanıcıyı`, 
+        `${prefix}yardım ${client.users.cache.size} PurpleGhost#0001`, 
         `${prefix}yardım`
     ];
     
@@ -91,7 +91,7 @@ client.on('ready', () => {
     
   
       console.log ('_________________________________________');
-      console.log (`Kullanıcı İsmi     : ${client.user.username}`);
+      console.log (`Kullanıcı İsmi     : ${client.Purple.PurpleGhost}`);
       console.log (`Sunucular          : ${client.guilds.cache.size}`);
       console.log (`Kullanıcılar       : ${client.users.cache.size}`);
       console.log (`Prefix             : ${ayarlar.prefix}`);
