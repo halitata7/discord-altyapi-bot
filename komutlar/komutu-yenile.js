@@ -31,12 +31,13 @@ exports.run = async (client, message, args) => {
 exports.conf = {
     aliases: ['komutyenile','yenile','reload'],
     permLevel: 0,
-    kategori: "Sahip"
+    kategori: 2,
+        
 };
 
 exports.help = {
-    name: "komut-yenile",
-    description: "Belirttiğiniz komutu yeniden başlatır.",
+    name: "komut-yenile"
+    description: "help"
     usage: "komut-yenile"
 };
 
